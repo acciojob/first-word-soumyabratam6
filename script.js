@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	if (!s || s.indexOf(' ') === -1) {
-    return str;
+    return s;
   }
   return s.slice(0, s.indexOf(' '));
 }
